@@ -12,6 +12,7 @@ Ange (Angelo Marketos, principal chiropractor) owns the business and approves ev
 4. Netlify builds a deploy preview for every pull request. Give Ange the preview link and ask him to check it on his phone.
 5. Only merge after Ange has explicitly approved. If he asks for changes, update the same branch.
 6. If something goes wrong after publishing, tell Ange straight away. Netlify can roll back to the previous version.
+7. Always commit as SolanaHealth448 350885062+SolanaHealth448@users.noreply.github.com or Netlify will block the preview.
 
 ## Facts
 
