@@ -39,6 +39,7 @@ Flag anything with a clinical claim so Ange can review that wording specifically
 - No patient information anywhere in this repository.
 - No API keys, passwords or secrets in this repository. Ever.
 - Don't add analytics, advertising pixels or other third-party scripts without Ange's approval, and never on booking or contact form pages.
+- Keep the Google Tag Manager tags (ID GTM-WJT45XFH) on every page. Each page has two parts: the script in the `<head>` and the `<noscript>` iframe straight after the opening `<body>` tag. Don't remove, move or change them without Ange's approval. Copy both parts onto any new page, unless it has a booking or contact form.
 
 ## Brand
 
