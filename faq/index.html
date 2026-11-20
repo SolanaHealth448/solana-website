@@ -56,7 +56,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
    "@id": "https://solanahealth.com.au/#clinic",
    "name": "Solana Health",
    "alternateName": "Solana Health Matraville",
-   "description": "Solana Health is an allied health clinic at Shop 1, 448 Bunnerong Road, Matraville NSW 2036, offering chiropractic care and dry needling, with physiotherapy to follow. Open Monday to Saturday, 8am to 8pm. HICAPS on-site claiming and Medicare care plan referrals accepted.",
+   "description": "Solana Health is an allied health clinic at Shop 1, 448 Bunnerong Road, Matraville NSW 2036, offering chiropractic care, physiotherapy and dry needling. Open Monday to Saturday, 8am to 8pm. HICAPS on-site claiming and Medicare care plan referrals accepted.",
    "url": "https://solanahealth.com.au/",
    "logo": "https://solanahealth.com.au/assets/img/solana-health-icon.png",
    "image": "https://solanahealth.com.au/assets/img/og-solana-health.jpg",
@@ -68,6 +68,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
    "paymentAccepted": "Cash, Credit Card, EFTPOS, HICAPS",
    "medicalSpecialty": [
     "Chiropractic",
+    "Physiotherapy",
     "Musculoskeletal"
    ],
    "address": {
@@ -159,14 +160,24 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
    "founder": {
     "@id": "https://solanahealth.com.au/team/#angelo"
    },
-   "employee": {
-    "@id": "https://solanahealth.com.au/team/#angelo"
-   },
+   "employee": [
+    {
+     "@id": "https://solanahealth.com.au/team/#angelo"
+    },
+    {
+     "@id": "https://solanahealth.com.au/team/#jessica"
+    }
+   ],
    "availableService": [
     {
      "@type": "MedicalTherapy",
      "name": "Chiropractic",
      "url": "https://solanahealth.com.au/chiropractor-matraville/"
+    },
+    {
+     "@type": "MedicalTherapy",
+     "name": "Physiotherapy",
+     "url": "https://solanahealth.com.au/physiotherapy-matraville/"
     },
     {
      "@type": "MedicalTherapy",
@@ -227,6 +238,43 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
    ]
   },
   {
+   "@type": "Person",
+   "@id": "https://solanahealth.com.au/team/#jessica",
+   "name": "Jessica Whitling",
+   "givenName": "Jessica",
+   "familyName": "Whitling",
+   "jobTitle": "Physiotherapist",
+   "description": "Jessica Whitling is a physiotherapist registered with the Physiotherapy Board of Australia (AHPRA PHY0002805997). She is the physiotherapist at Solana Health in Matraville, Sydney.",
+   "image": "https://solanahealth.com.au/assets/img/jessica-whitling-physiotherapist-matraville.jpg",
+   "url": "https://solanahealth.com.au/team/#jessica",
+   "worksFor": {
+    "@id": "https://solanahealth.com.au/#clinic"
+   },
+   "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "AHPRA registration number",
+    "value": "PHY0002805997"
+   },
+   "hasCredential": [
+    {
+     "@type": "EducationalOccupationalCredential",
+     "credentialCategory": "degree",
+     "name": "BSc (Hons) Physiotherapy"
+    }
+   ],
+   "memberOf": {
+    "@type": "Organization",
+    "name": "Australian Physiotherapy Association"
+   },
+   "knowsAbout": [
+    "Physiotherapy",
+    "Sports rehabilitation",
+    "Knee injuries",
+    "Post-operative rehabilitation",
+    "Dry needling"
+   ]
+  },
+  {
    "@type": "BreadcrumbList",
    "itemListElement": [
     {
@@ -267,7 +315,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
      "name": "What services do you offer?",
      "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Chiropractic care and dry needling are available now. Physiotherapy is coming soon, and we plan to add recovery services such as infrared sauna and red light therapy at a later stage."
+      "text": "Chiropractic care, physiotherapy and dry needling are available now. We plan to add recovery services such as infrared sauna and red light therapy at a later stage."
      }
     },
     {
@@ -391,7 +439,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <h1>Frequently asked questions</h1>
   <p class="hero-lead">Straight answers about visiting Solana Health in Matraville: location, hours, bookings, fees, private health and Medicare.</p>
 </div></section>
-<section class="content-section" style="padding-top:10px;"><div class="section-inner"><div class="faq-list"><details><summary>Where is Solana Health?</summary><p>Solana Health is at Shop 1, 448 Bunnerong Road, Matraville NSW 2036, in Sydney's south-eastern suburbs, close to Maroubra, Malabar, Chifley, Little Bay, Eastgardens and Botany.</p></details><details><summary>What are your opening hours?</summary><p>Monday to Saturday, 8am to 8pm. We're closed on Sundays and public holidays.</p></details><details><summary>What services do you offer?</summary><p>Chiropractic care and dry needling are available now. Physiotherapy is coming soon, and we plan to add recovery services such as infrared sauna and red light therapy at a later stage.</p></details><details><summary>Do I need a referral?</summary><p>No referral is needed to see the chiropractor. A GP referral is only required if you want to claim under a Medicare Chronic Condition Management Plan.</p></details><details><summary>Can I claim on private health insurance?</summary><p>Yes. We have HICAPS on site, so if your extras cover includes chiropractic you can claim on the spot and pay the gap.</p></details><details><summary>Do you accept Medicare care plans (EPC)?</summary><p>Yes. We accept GP Chronic Condition Management Plan referrals, which replaced the EPC and CDM plans in July 2025. Medicare covers up to five allied health visits per calendar year under these plans, shared across all allied health providers you see.</p></details><details><summary>Do you treat WorkCover or motor accident (CTP) injuries?</summary><p>Yes, chiropractic treatment can be provided under NSW workers compensation and CTP schemes. Bring your claim number and any approval from your insurer, and call us first so we can confirm what's needed.</p></details><details><summary>How do I book?</summary><p>Book online 24 hours a day via our Cliniko booking page, or call 0433 363 460 during opening hours.</p></details><details><summary>How long is an appointment?</summary><p>An initial chiropractic consultation takes around 45 minutes. Standard follow-up consultations take around 20 to 30 minutes.</p></details><details><summary>What should I bring to my first visit?</summary><p>Any relevant scans, reports or referral letters, your private health card if you'd like to claim through HICAPS, and comfortable clothing you can move in.</p></details><details><summary>Is there parking?</summary><p>Yes. Street parking is available on Bunnerong Road and the surrounding side streets in Matraville.</p></details><details><summary>Who is the chiropractor at Solana Health?</summary><p>Dr Angelo Marketos (Chiropractor) is the principal chiropractor. He has been practising since 2011, holds a Bachelor of Chiropractic Science and a Master of Chiropractic, is registered with AHPRA and is a member of Chiropractic Australia.</p></details><details><summary>Can children and older adults see the chiropractor?</summary><p>Yes. Angelo assesses each person individually and adapts techniques to age, condition and comfort. If chiropractic care isn't the right fit, he'll say so and suggest an alternative.</p></details><details><summary>What is your cancellation policy?</summary><p>Please give at least 24 hours' notice if you need to change or cancel an appointment so the time can be offered to someone else. Late cancellation and non-attendance fees are set out on the booking page.</p></details></div></div></section>
+<section class="content-section" style="padding-top:10px;"><div class="section-inner"><div class="faq-list"><details><summary>Where is Solana Health?</summary><p>Solana Health is at Shop 1, 448 Bunnerong Road, Matraville NSW 2036, in Sydney's south-eastern suburbs, close to Maroubra, Malabar, Chifley, Little Bay, Eastgardens and Botany.</p></details><details><summary>What are your opening hours?</summary><p>Monday to Saturday, 8am to 8pm. We're closed on Sundays and public holidays.</p></details><details><summary>What services do you offer?</summary><p>Chiropractic care, physiotherapy and dry needling are available now. We plan to add recovery services such as infrared sauna and red light therapy at a later stage.</p></details><details><summary>Do I need a referral?</summary><p>No referral is needed to see the chiropractor. A GP referral is only required if you want to claim under a Medicare Chronic Condition Management Plan.</p></details><details><summary>Can I claim on private health insurance?</summary><p>Yes. We have HICAPS on site, so if your extras cover includes chiropractic you can claim on the spot and pay the gap.</p></details><details><summary>Do you accept Medicare care plans (EPC)?</summary><p>Yes. We accept GP Chronic Condition Management Plan referrals, which replaced the EPC and CDM plans in July 2025. Medicare covers up to five allied health visits per calendar year under these plans, shared across all allied health providers you see.</p></details><details><summary>Do you treat WorkCover or motor accident (CTP) injuries?</summary><p>Yes, chiropractic treatment can be provided under NSW workers compensation and CTP schemes. Bring your claim number and any approval from your insurer, and call us first so we can confirm what's needed.</p></details><details><summary>How do I book?</summary><p>Book online 24 hours a day via our Cliniko booking page, or call 0433 363 460 during opening hours.</p></details><details><summary>How long is an appointment?</summary><p>An initial chiropractic consultation takes around 45 minutes. Standard follow-up consultations take around 20 to 30 minutes.</p></details><details><summary>What should I bring to my first visit?</summary><p>Any relevant scans, reports or referral letters, your private health card if you'd like to claim through HICAPS, and comfortable clothing you can move in.</p></details><details><summary>Is there parking?</summary><p>Yes. Street parking is available on Bunnerong Road and the surrounding side streets in Matraville.</p></details><details><summary>Who is the chiropractor at Solana Health?</summary><p>Dr Angelo Marketos (Chiropractor) is the principal chiropractor. He has been practising since 2011, holds a Bachelor of Chiropractic Science and a Master of Chiropractic, is registered with AHPRA and is a member of Chiropractic Australia.</p></details><details><summary>Can children and older adults see the chiropractor?</summary><p>Yes. Angelo assesses each person individually and adapts techniques to age, condition and comfort. If chiropractic care isn't the right fit, he'll say so and suggest an alternative.</p></details><details><summary>What is your cancellation policy?</summary><p>Please give at least 24 hours' notice if you need to change or cancel an appointment so the time can be offered to someone else. Late cancellation and non-attendance fees are set out on the booking page.</p></details></div></div></section>
 <section class="cta-band"><div class="section-inner">
   <p class="eyebrow">get in touch</p><h2>Still have a question?</h2><p>Call us or send an email and we'll get back to you within one business day.</p>
   <div class="cta-actions"><a href="https://solana-health.au5.cliniko.com/bookings#service" class="btn btn-primary" target="_blank" rel="noopener">Book now</a>

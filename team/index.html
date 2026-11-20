@@ -56,7 +56,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
    "@id": "https://solanahealth.com.au/#clinic",
    "name": "Solana Health",
    "alternateName": "Solana Health Matraville",
-   "description": "Solana Health is an allied health clinic at Shop 1, 448 Bunnerong Road, Matraville NSW 2036, offering chiropractic care and dry needling, with physiotherapy to follow. Open Monday to Saturday, 8am to 8pm. HICAPS on-site claiming and Medicare care plan referrals accepted.",
+   "description": "Solana Health is an allied health clinic at Shop 1, 448 Bunnerong Road, Matraville NSW 2036, offering chiropractic care, physiotherapy and dry needling. Open Monday to Saturday, 8am to 8pm. HICAPS on-site claiming and Medicare care plan referrals accepted.",
    "url": "https://solanahealth.com.au/",
    "logo": "https://solanahealth.com.au/assets/img/solana-health-icon.png",
    "image": "https://solanahealth.com.au/assets/img/og-solana-health.jpg",
@@ -68,6 +68,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
    "paymentAccepted": "Cash, Credit Card, EFTPOS, HICAPS",
    "medicalSpecialty": [
     "Chiropractic",
+    "Physiotherapy",
     "Musculoskeletal"
    ],
    "address": {
@@ -159,14 +160,24 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
    "founder": {
     "@id": "https://solanahealth.com.au/team/#angelo"
    },
-   "employee": {
-    "@id": "https://solanahealth.com.au/team/#angelo"
-   },
+   "employee": [
+    {
+     "@id": "https://solanahealth.com.au/team/#angelo"
+    },
+    {
+     "@id": "https://solanahealth.com.au/team/#jessica"
+    }
+   ],
    "availableService": [
     {
      "@type": "MedicalTherapy",
      "name": "Chiropractic",
      "url": "https://solanahealth.com.au/chiropractor-matraville/"
+    },
+    {
+     "@type": "MedicalTherapy",
+     "name": "Physiotherapy",
+     "url": "https://solanahealth.com.au/physiotherapy-matraville/"
     },
     {
      "@type": "MedicalTherapy",
@@ -227,6 +238,43 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
    ]
   },
   {
+   "@type": "Person",
+   "@id": "https://solanahealth.com.au/team/#jessica",
+   "name": "Jessica Whitling",
+   "givenName": "Jessica",
+   "familyName": "Whitling",
+   "jobTitle": "Physiotherapist",
+   "description": "Jessica Whitling is a physiotherapist registered with the Physiotherapy Board of Australia (AHPRA PHY0002805997). She is the physiotherapist at Solana Health in Matraville, Sydney.",
+   "image": "https://solanahealth.com.au/assets/img/jessica-whitling-physiotherapist-matraville.jpg",
+   "url": "https://solanahealth.com.au/team/#jessica",
+   "worksFor": {
+    "@id": "https://solanahealth.com.au/#clinic"
+   },
+   "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "AHPRA registration number",
+    "value": "PHY0002805997"
+   },
+   "hasCredential": [
+    {
+     "@type": "EducationalOccupationalCredential",
+     "credentialCategory": "degree",
+     "name": "BSc (Hons) Physiotherapy"
+    }
+   ],
+   "memberOf": {
+    "@type": "Organization",
+    "name": "Australian Physiotherapy Association"
+   },
+   "knowsAbout": [
+    "Physiotherapy",
+    "Sports rehabilitation",
+    "Knee injuries",
+    "Post-operative rehabilitation",
+    "Dry needling"
+   ]
+  },
+  {
    "@type": "BreadcrumbList",
    "itemListElement": [
     {
@@ -282,17 +330,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <section class="page-hero"><div class="section-inner">
   <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li aria-current="page">Team</li></ol></nav>
   <h1>Meet the team at Solana Health</h1>
-  <p class="hero-lead">Good care should be close to home and built on real relationships. Solana Health is led by chiropractor Angelo Marketos, with more practitioners joining as the clinic grows.</p>
+  <p class="hero-lead">Good care should be close to home and built on real relationships. Solana Health brings chiropractor Angelo Marketos and physiotherapist Jessica Whitling together under one roof in Matraville.</p>
 </div></section>
 <section class="section-inner" id="angelo">
   <div class="team-profile">
-    <div class="team-photo"><img src="/assets/img/angelo-marketos-chiropractor-matraville.webp" alt="Angelo Marketos, principal chiropractor at Solana Health, Matraville" width="400" height="400"></div>
+    <div class="team-photo"><img src="/assets/img/angelo-marketos-chiropractor-matraville.webp" alt="Angelo Marketos, principal chiropractor at Solana Health, Matraville" width="600" height="800"></div>
     <div class="team-profile-body">
       <h2>Dr Angelo Marketos (Chiropractor)</h2>
       <p class="team-profile-role">Principal Chiropractor</p>
       <p>Angelo has been practising as a chiropractor since 2011. He holds a Bachelor of Chiropractic Science and a Master of Chiropractic, completed alongside research into the relationship between neck pain and balance. He is registered with the Chiropractic Board of Australia (AHPRA registration CHI0001597312) and is a member of Chiropractic Australia.</p>
       <p>His approach is hands-on and conservative, focused on relieving pain and restoring movement through spinal adjustments, mobilisation, soft tissue work and dry needling. Angelo has particular experience helping desk workers, students and tradespeople manage and recover from pain, and takes the time to understand each patient's history and goals before building a plan together.</p>
-      <p>Angelo lives locally and opened Solana Health with his wife Jess to bring evidence-informed allied health care to the Matraville community.</p>
       <h3>Areas of practice</h3>
       <ul class="treat-list"><li>Neck pain</li><li>Headaches</li><li>Lower back pain</li><li>Sciatica</li><li>Shoulder injuries</li><li>Rib and chest wall complaints</li><li>Knee and ankle sprains and strains</li><li>Sporting injuries</li><li>Dry needling</li></ul>
       <h3>Qualifications and registration</h3>
@@ -309,16 +356,39 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
   </div>
 </section>
+<section class="section-inner" id="jessica">
+  <div class="team-profile">
+    <div class="team-photo"><img src="/assets/img/jessica-whitling-physiotherapist-matraville.webp" alt="Jessica Whitling, physiotherapist at Solana Health, Matraville" width="600" height="800" loading="lazy"></div>
+    <div class="team-profile-body">
+      <h2>Jessica Whitling (Physiotherapist)</h2>
+      <p class="team-profile-role">Physiotherapist</p>
+      <p>Jessica is originally from Manchester, UK, and has been living and working in Australia for over two years. She holds a BSc (Hons) in Physiotherapy from Leeds Beckett University and has experience treating adults and children across hospital, community, private practice and sporting environments.</p>
+      <p>Jessica has worked in professional sport, including with Crewe Alexandra FC (English League Two), and has provided physiotherapy support to NRL teams across Sydney, including the South Sydney Rabbitohs and Wests Tigers.</p>
+      <p>She takes an individualised, evidence-based approach to physiotherapy, focusing on each client's goals and developing tailored treatment and rehabilitation plans to support recovery, improve function and return to activity.</p>
+      <p>Jessica has a particular interest in sports rehabilitation and lower limb injuries, including ACL and PCL injuries, meniscal injuries, post-operative rehabilitation, knee replacements and return-to-sport programs.</p>
+      <p>Outside of work, Jessica enjoys going to the gym, walking along the beach with friends and travelling. She is a keen sports fan, particularly rugby league, rugby union, football and gymnastics.</p>
+      <h3>Areas of practice</h3>
+      <ul class="treat-list"><li>Neck pain and TMJ disorders</li><li>Acute and chronic back pain</li><li>Shoulder injuries and post-operative rehabilitation</li><li>Hip bursitis, tendinopathies and joint replacements</li><li>Knee pain, ligament injuries, meniscal tears, arthritis and knee replacements</li><li>Ankle and sporting injuries</li><li>Tennis and golfer's elbow</li><li>Wrist and hand conditions, including TFCC injuries, carpal tunnel syndrome and De Quervain's tenosynovitis</li><li>Mastitis</li><li>Sports injury rehabilitation and return-to-sport programs</li></ul>
+      <h3>Additional training</h3>
+      <ul class="treat-list"><li>Australian Physiotherapy Association (APA) Sports Physiotherapy Level 1</li><li>Acupuncture and dry needling</li><li>Sports massage</li><li>FA Intermediate Trauma Management in Football</li></ul>
+      <h3>Qualifications and registration</h3>
+      <table class="facts">
+        <tr><th>Qualifications</th><td>BSc (Hons) Physiotherapy</td></tr>
+        <tr><th>Registration</th><td>Physiotherapy Board of Australia (AHPRA), PHY0002805997</td></tr>
+        <tr><th>Membership</th><td>Australian Physiotherapy Association (APA)</td></tr>
+        <tr><th>Languages</th><td>English</td></tr>
+      </table>
+    </div>
+  </div>
+</section>
 <section class="section-inner">
   <div class="team-more">
     <div class="arc-icon" aria-hidden="true"><svg width="56" height="42" viewBox="0 0 56 42" xmlns="http://www.w3.org/2000/svg"><path d="M2,42 A26,26 0 0 1 54,42" fill="none" stroke="#B27060" stroke-width="3"/><path d="M12,42 A16,16 0 0 1 44,42" fill="none" stroke="#C5B070" stroke-width="3"/></svg></div>
-    <h3>More practitioners to come</h3>
-    <p>As Solana Health grows, Angelo will be joined by a wider allied health team, starting with physiotherapy. Follow along on Instagram to be the first to know when new practitioners join.</p>
     <a href="https://www.instagram.com/solanahealth/" class="btn btn-outline" target="_blank" rel="noopener">Follow @SolanaHealth</a>
   </div>
 </section>
 <section class="cta-band"><div class="section-inner">
-  <p class="eyebrow">get started</p><h2>Book an appointment with Angelo</h2><p>Book online in a couple of minutes, or call if you have questions before your first visit.</p>
+  <p class="eyebrow">get started</p><h2>Ready to book?</h2><p>Book online in a couple of minutes, or call if you'd rather talk it through first.</p>
   <div class="cta-actions"><a href="https://solana-health.au5.cliniko.com/bookings#service" class="btn btn-primary" target="_blank" rel="noopener">Book now</a>
   <a href="tel:+61433363460" class="btn btn-outline">Call 0433 363 460</a></div>
 </div></section>
