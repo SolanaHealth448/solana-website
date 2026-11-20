@@ -1,11 +1,12 @@
 # Solana Health
 
-> Solana Health is an allied health clinic at Shop 1, 448 Bunnerong Road, Matraville NSW 2036, in Sydney's south-eastern suburbs. It offers chiropractic care and dry needling now, with physiotherapy to follow. Open Monday to Saturday, 8am to 8pm. Phone 0433 363 460. Email reception@solanahealth.com.au. Online bookings via Cliniko. HICAPS on-site claiming and Medicare Chronic Condition Management Plan (EPC) referrals accepted.
+> Solana Health is an allied health clinic at Shop 1, 448 Bunnerong Road, Matraville NSW 2036, in Sydney's south-eastern suburbs. It offers chiropractic care, physiotherapy and dry needling. Open Monday to Saturday, 8am to 8pm. Phone 0433 363 460. Email reception@solanahealth.com.au. Online bookings via Cliniko. HICAPS on-site claiming and Medicare Chronic Condition Management Plan (EPC) referrals accepted.
 
 ## Key facts
 - Principal chiropractor: Dr Angelo Marketos (Chiropractor), practising since 2011, AHPRA registration CHI0001597312, member of Chiropractic Australia. Bachelor of Chiropractic Science and Master of Chiropractic.
-- Services available now: chiropractic (spinal adjustments, mobilisation, soft tissue therapy, exercise advice) and dry needling.
-- Services coming soon: physiotherapy. Recovery services (infrared sauna, red light therapy) are planned for a later stage.
+- Physiotherapist: Jess, BSc (Hons) Physiotherapy, practising since 2023, AHPRA registration PHY0002805997, member of the Australian Physiotherapy Association. Particular interest in sports rehabilitation and lower limb injuries.
+- Services available now: chiropractic (spinal adjustments, mobilisation, soft tissue therapy, exercise advice), physiotherapy and dry needling.
+- Planned for a later stage: recovery services (infrared sauna, red light therapy).
 - Conditions commonly seen: lower back pain, neck pain, headaches, sciatica, postural strain, shoulder injuries, sports injuries, knee and ankle sprains, WorkCover and CTP injuries.
 - Areas served: Matraville, Maroubra, Malabar, Chifley, Little Bay, Phillip Bay, La Perouse, Eastgardens, Pagewood, Hillsdale, Botany and the wider Randwick and Bayside council areas.
 - No referral needed for chiropractic. GP referral needed only to claim under a Medicare care plan.
@@ -16,7 +17,7 @@
 - [Home](https://solanahealth.com.au/): overview of the clinic, services and location
 - [Chiropractic in Matraville](https://solanahealth.com.au/chiropractor-matraville/): what chiropractic care involves, conditions treated, first-visit details and FAQ
 - [Dry needling](https://solanahealth.com.au/dry-needling/): how dry needling works, uses, contraindications and FAQ
-- [Physiotherapy](https://solanahealth.com.au/physiotherapy-matraville/): upcoming physiotherapy service and how to register interest
-- [Team](https://solanahealth.com.au/team/): profile and credentials of Angelo Marketos
+- [Physiotherapy](https://solanahealth.com.au/physiotherapy-matraville/): physiotherapy services, areas covered and FAQ
+- [Team](https://solanahealth.com.au/team/): profiles and credentials of Angelo Marketos and Jess
 - [FAQ](https://solanahealth.com.au/faq/): hours, bookings, fees, private health, Medicare, WorkCover
 - [Contact](https://solanahealth.com.au/contact/): address, hours, phone, directions and payment options
